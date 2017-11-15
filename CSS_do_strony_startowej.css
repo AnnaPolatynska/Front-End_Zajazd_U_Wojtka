@@ -4,20 +4,21 @@ h1, h2{
 	text-align:center; 
 	font-size:2em;}
 #tresc {
-	margin-left:350px; 
-	margin-right:20px; 
-	padding-left:10px; 
-	border-left:1px solid black;
+	margin-left:50px; 
+	margin-right:350px; 
+	padding-right:10px; 
+	border-right:1px solid black;
 	}
+
 #menu {
 	position:fixed; 
-	right:10px; 
+	right:20px; 
 	width:300px;
 	}
 #menu a{color:inherit ; text-decoration: none;}
 #menu a:hover{color:gold ; background-color: black;}
 li {
-	List-style-type: none;
+	
 	border-bottom:1px solid #ddd;
 	}
 	
@@ -28,6 +29,17 @@ a {
 	color:inherit;}
 	
 /*text-decoration:none brak podkreœlenia
+
+
+#tresc glowna {
+	font-style: italic;
+	font-size: 1.5em;
+	font-family: "monotype corsiva";
+	color: gold;
+	margin-left: 80px;;
+	}
+
+
 inherit dziedzicz kolor po przodkach dla ka¿dego a*/
 #stopka {font-style: italic;
 	font-size: 15;
@@ -36,7 +48,7 @@ inherit dziedzicz kolor po przodkach dla ka¿dego a*/
 	}
 	
 .foto {
-	float:left;
+	float:center;
 	padding:10px 10px 10px 10px;
 	margin:10px 10px 10px 10px;
 	border:1px solid gray;
